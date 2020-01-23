@@ -1,0 +1,364 @@
+html, body {
+    font-size: 4px;
+}
+
+body {
+    background-color: #f1f5f6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pageHeader {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 25rem;
+}
+
+.pageTitle {
+    align-self: center;
+    color: #00a09b;
+    font-size: 8rem;
+    text-align: center;
+    width: 80rem;
+}
+
+.pageSection {
+    align-self: center;
+    color: #c6c6c6;
+    font-size: 4rem;
+    width: 200rem;
+}
+
+.verticalLine1 {
+    align-self: center;
+    border-left: 1px solid #e6ecec;
+    height: 15rem;
+}
+
+.padlock {
+    align-self: center;
+    text-align: right;
+    width: 12rem;
+}
+
+.padlockImage {
+    width: 6rem;
+    height: 7rem;
+}
+
+.pagePassword {
+    align-self: center;
+    color: #00c4c0;
+    font-size: 4rem;
+    font-weight: bold;
+    width: 40rem;
+}
+
+.verticalLine2 {
+    align-self: center;
+    border-left: 1px solid #e6ecec;
+    height: 15rem;
+}
+
+.pageUser {
+    align-self: center;
+    color: #00a09b;
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: right;
+    width: 34rem;
+}
+
+.userOptions {
+    align-self: center;
+}
+
+.sidebar {
+    background-color: white;
+    border-radius: 3rem;
+    box-shadow: 0px 1px 1px 0px rgba(78, 78, 78, 0.5);
+    height: 135rem;
+    left: 12rem;
+    position: relative;
+    top: 14rem;
+    width: 76rem;
+}
+
+.packagesTitle {
+    color: #e1e6e6;
+    font-size: 4rem;
+    font-weight: bold;
+    left: 9rem;
+    position: absolute;
+    top: 12rem;
+}
+
+.packagesPrimero {
+    color: #019c97;
+    font-size: 4rem;
+    font-weight: bold;
+    left: 9rem;
+    position: absolute;
+    top: 21rem;
+    text-decoration: underline;
+}
+
+.packagesSegundo {
+    color: #878f8f;
+    font-size: 4rem;
+    left: 9rem;
+    position: absolute;
+    top: 30rem;
+}
+
+.packagesTercero {
+    color: #878f8f;
+    font-size: 4rem;
+    left: 9rem;
+    position: absolute;
+    top: 39rem;
+}
+
+.packagesCuarto {
+    color: #878f8f;
+    font-size: 4rem;
+    left: 9rem;
+    position: absolute;
+    top: 48rem;
+}
+
+.packagesQuinto {
+    color: #878f8f;
+    font-size: 4rem;
+    left: 9rem;
+    position: absolute;
+    top: 62rem;
+}
+
+.packagesCuarto2 {
+    color: #878f8f;
+    font-size: 4rem;
+    left: 9rem;
+    position: absolute;
+    top: 76rem;
+}
+
+.packagesQuinto2 {
+    color: #878f8f;
+    font-size: 4rem;
+    left: 9rem;
+    position: absolute;
+    top: 90rem;
+}
+
+.horizontalLine {
+    border-top: 1px solid #e6ecec;
+    left: 9rem;
+    position: absolute;
+    top: 106rem;
+    width: 59rem;
+}
+
+.addPackageTitle {
+    color: #44b9b6;
+    font-size: 14px;
+    font-weight: bold;
+    left: 9rem;
+    position: absolute;
+    top: 112rem;
+}
+
+.packagesTextBox {
+    background-color: #f1f6f6;
+    border-radius: 3rem;
+    border: 1px solid #dce4e4;
+    color: #c0c0c0;
+    font-size: 13px;
+    height: 6rem;
+    left: 9rem;
+    line-height: 6rem;
+    position: absolute;
+    text-align: center;
+    top: 120rem;
+    width: 40rem;
+}
+
+.addPackageButton {
+    left: 52rem;
+    position: absolute;
+    top: 118rem;
+}
+
+.mainContentHeader {
+    height: 14rem;
+    left: 110rem;
+    position: fixed;
+    top: 44rem;
+    width: 250rem;
+}
+
+.mainContentTitle {
+    color: #00938e;
+    font-size: 7rem;
+    position: absolute;
+}
+
+.editButton {
+    left: 50rem;
+    position: absolute;
+}
+
+.deleteButton {
+    left: 61rem;
+    position: absolute;
+}
+
+.addBookButton {
+    background-color: #00c468;
+    border-radius: 5rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    height: 9rem;
+    left: 150rem;
+    line-height: 9rem;
+    position: absolute;
+    text-align: center;
+    width: 45rem;
+}
+
+.addCategoryButton {
+    background-color: #00c4bf;
+    border-radius: 5rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    height: 9rem;
+    left: 200rem;
+    line-height: 9rem;
+    position: absolute;
+    text-align: center;
+    width: 50rem;
+}
+
+.mainContentLanguage {
+    border-bottom: 1px solid #d7e1e1;
+    border-top: 1px solid #d7e1e1;
+    height: 12rem;
+    left: 110rem;
+    position: fixed;
+    top: 58rem;
+    width: 250rem;
+}
+
+.spanishLanguage {
+    color: #019c97;
+    font-size: 4rem;
+    left: 4rem;
+    position: absolute;
+    font-weight: bold;
+    top: 4rem;
+}
+
+.horizontalLine2 {
+    border-top: 3px solid #019c97;
+    left: 2rem;
+    position: absolute;
+    top: 12rem;
+    width: 44rem;
+}
+
+.deleteSpanish {
+    left: 38rem;
+    position: absolute;
+    top: 3rem;
+}
+
+.englishLanguage {
+    color: #b0b1b2;
+    font-size: 4rem;
+    left: 58rem;
+    position: absolute;
+    top: 4rem;
+}
+
+.deleteEnglish {
+    left: 86rem;
+    position: absolute;
+    top: 3rem;
+}
+
+.book {
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0px 1px 1px 0px rgba(78, 78, 78, 0.5);
+    height: 71rem;
+    left: 115rem;
+    position: fixed;
+    top: 80rem;
+    width: 52rem;
+}
+
+.bookImage {
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    height: 58rem;
+    position: absolute;
+    width: 52rem;
+}
+
+.bookTitle {
+    color: #019c97;
+    font-size: 3rem;
+    font-weight: bold;
+    left: 5rem;
+    position: absolute;
+    top: 61rem;
+}
+
+.bookSize {
+    color: #9b9b9b;
+    font-size: 3rem;
+    left: 5rem;
+    position: absolute;
+    top: 65rem;
+}
+
+.bookOptions {
+    left: 44rem;
+    position: absolute;
+    top: 242px;
+}
+
+.book2 {
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0px 1px 1px 0px rgba(78, 78, 78, 0.5);
+    height: 71rem;
+    left: 178rem;
+    position: fixed;
+    top: 80rem;
+    width: 52rem;
+}
+
+.book3 {
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0px 1px 1px 0px rgba(78, 78, 78, 0.5);
+    height: 71rem;
+    left: 241rem;
+    position: fixed;
+    top: 80rem;
+    width: 52rem;
+}
+
+.book4 {
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0px 1px 1px 0px rgba(78, 78, 78, 0.5);
+    height: 71rem;
+    left: 304rem;
+    position: fixed;
+    top: 80rem;
+    width: 52rem;
+}
